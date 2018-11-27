@@ -42,10 +42,11 @@
       <nav id="mySidebar" class="w3-sidebar w3-bar-block w3-animate-left" style="display:none;z-index:5">
           <ul>
               <button class="w3-bar-item w3-button w3-medium" (click)="w3_close()">Close &times;</button>
-              <li routerLinkActive='active'> <a class="w3-bar-item w3-button" routerLink="home">Home</a>
-              <li routerLinkActive='active'> <a class="w3-bar-item w3-button" routerLink="health">Health</a>
-              <li routerLinkActive='active'> <a class="w3-bar-item w3-button" routerLink="history">Wound History</a>
-              <li routerLinkActive='active'> <a class="w3-bar-item w3-button" routerLink="results">Wound Results</a>
+			  <li routerLinkActive='active'> <a class="w3-bar-item w3-button" routerLink="home">Home</a>
+			  <li routerLinkActive='active'> <a class="w3-bar-item w3-button" routerLink="/patient/appointments">Appointments</a>
+              <li routerLinkActive='active'> <a class="w3-bar-item w3-button" routerLink="/patient/healthpage">Health Home</a>
+              <li routerLinkActive='active'> <a class="w3-bar-item w3-button" routerLink="/patient/woundhistory">Wound History</a>
+              <li routerLinkActive='active'> <a class="w3-bar-item w3-button" routerLink="/patient/woundresults">Wound Results</a>
               </ul>
 			</nav>
 
